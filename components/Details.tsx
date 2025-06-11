@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function Details() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#0a192f] to-[#112240] text-white px-6 py-12">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#0a192f] to-[#112240] text-white px-6 py-12" id="Details">
       <section className="w-full max-w-3xl space-y-8">
         <header className="text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#61DBFB] to-[#7FDBFF]">
@@ -25,13 +25,15 @@ export default function Details() {
                 href="https://jsonplaceholder.typicode.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#61DBFB] hover:text-[#7FDBFF] transition-colors"
+                className="text-[#61DBFB] hover:text-[#7FDBFF] transition-colors hover:underline"
               >
                 (e.g. JSONPlaceholder)
               </a>
             </li>
           </ul>
-          <Button href="#">Get Started</Button>
+          <div className="flex justify-end">
+            <Button href="#">Get Started</Button>
+          </div>
         </div>
       </section>
     </div>

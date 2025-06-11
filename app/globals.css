@@ -33,3 +33,20 @@ body {
     /* Subtle blue accent shadow at the top */
     box-shadow: 0 -2px 32px 0 #61DBFB22 inset;
 }
+
+        /* @keyframes spin {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+
+        .rotating {
+          animation: spin 4s linear infinite;
+        }
+
+        .logo-wrapper {
+          display: inline-block;
+        } */
