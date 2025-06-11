@@ -1,13 +1,19 @@
 "use client"
-import { Music} from 'lucide-react';
-import { useState, useRef } from 'react';
+import { Music } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function MusicPlayer() {
     const [isPlaying, setIsPlaying] = useState(false);
-    const audioRef = useRef(new Audio('/music.mp3'));
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+
+    useEffect(() => {
+        audioRef.current = new Audio('/music.mp3');
+    }, []);
 
     const togglePlayback = () => {
         const audio = audioRef.current;
+        if (!audio) return;
+
         if (isPlaying) {
             audio.pause();
         } else {
@@ -22,7 +28,7 @@ export default function MusicPlayer() {
                 onClick={togglePlayback}
                 className="rounded-full border-2 p-3 text-[#61DBFB] bg-black hover:bg-gray-800 transition hover:scale-110 items-center justify-center flex hover:rotate-12 active:scale-90"
             >
-                <Music className=''/>
+                <Music />
             </button>
         </div>
     );
