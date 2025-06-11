@@ -1,11 +1,11 @@
-import Image from "next/image";
 import Button from "./Button";
+import Logo from "./Logo";
 
 export default function Hero() {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-row items-center">
-        <Logo />
+        <Logo size={150} />
         <h1
           className="text-[5rem] md:text-[7rem] font-extrabold tracking-tight text-[#61DBFB]"
           style={{
@@ -23,13 +23,5 @@ export default function Hero() {
         <Button href="#">Learn More</Button>
       </div>
     </section>
-  );
-}
-
-function Logo() {
-  return (
-    <div>
-      <Image src="logo.svg" alt="Logo" width={100} height={100} />
-    </div>
   );
 }
