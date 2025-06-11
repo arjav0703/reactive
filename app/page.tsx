@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Details from "@/components/Details";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </main>
 
       <Details/>
+      <Footer/>
     </>
   );
 }
