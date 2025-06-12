@@ -49,8 +49,8 @@ export default function FAQ() {
           <p>You can use AI as an assistant but make sure that not more than 30% of your code was written by AI and you actually learnt something!</p>
         </FaqItem>
 
-        <FaqItem question="Where do I add new components?">
-          <p>Create a new file under <code className="bg-gray-800 px-1 py-0.5 rounded">components/</code>, then import and use it in your pages or other components.</p>
+        <FaqItem question="Where do I use the $15 grant?">
+          <p>You can use it to buy a domain from websites like Porkbun and Name.com. If you want to buy it from somewhere else, let us know!</p>
         </FaqItem>
 
         <FaqItem question="How can I fetch data from an API?">
