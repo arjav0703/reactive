@@ -3,7 +3,7 @@ import FAQ from "./Faq";
 
 export default function Details() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#0a192f] to-[#112240] text-white gap-10 px-6 py-12" id="Details">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#0a192f] to-[#112240] text-white gap-30 px-6 py-12" id="Details">
       <Requirements/>
       <FAQ/>
     </div>

@@ -40,20 +40,17 @@ export default function FAQ() {
     >
       <header className="text-center">
         <h2 className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#61DBFB] to-[#7FDBFF]">
-          Frequently Asked Questions
+          FAQs
         </h2>
-        <p className="mt-2 text-gray-300">
-          Answers to common questions about this project setup.
-        </p>
       </header>
 
       <div className="space-y-4">
-        <FaqItem question="How do I install dependencies?">
-          <p>Run <code className="bg-gray-800 px-1 py-0.5 rounded">npm install</code> or <code className="bg-gray-800 px-1 py-0.5 rounded">yarn</code> in your project root.</p>
+        <FaqItem question="Can I use AI?">
+          <p>You can use AI as an assistant but make sure that not more than 30% of your code was written by AI and you actually learnt something!</p>
         </FaqItem>
 
         <FaqItem question="Where do I add new components?">
-          <p>Create a new file under <code className="bg-gray-800 px-1 py-0.5 rounded">src/components/</code>, then import and use it in your pages or other components.</p>
+          <p>Create a new file under <code className="bg-gray-800 px-1 py-0.5 rounded">components/</code>, then import and use it in your pages or other components.</p>
         </FaqItem>
 
         <FaqItem question="How can I fetch data from an API?">
@@ -65,8 +62,7 @@ export default function FAQ() {
 
         <FaqItem question="How do I deploy this demo?">
           <p>
-            You can build your app with <code className="bg-gray-800 px-1 py-0.5 rounded">npm run build</code> and then host
-            the output on Netlify, Vercel, GitHub Pages, or any static-file host.
+            We recommend you to use something like Vercel or Netlify that directly integrate with NextJS
           </p>
         </FaqItem>
       </div>
