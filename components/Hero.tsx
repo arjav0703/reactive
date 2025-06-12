@@ -4,7 +4,7 @@ import Logo from "./Logo";
 export default function Hero() {
   return (
     <section className="flex flex-col items-center">
-      <div className="flex flex-row items-center">
+      <div className="flex md:flex-row flex-col items-center">
         <Logo size={150} />
         <h1
           className="text-[5rem] md:text-[7rem] font-extrabold tracking-tight text-[#61DBFB]"
