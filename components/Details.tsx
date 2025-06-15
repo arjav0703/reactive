@@ -26,11 +26,12 @@ function Requirements() {
         <div className="bg-[#112240] border border-[#61DBFB] rounded-lg shadow-lg p-8 space-y-6">
           <p className="text-2xl font-semibold">Requirements:</p>
           <ul className="space-y-3 list-inside list-disc text-gray-200">
-            <li>Create your first reusable component</li>
-            <li>Create a component that accepts <span className="font-medium text-white">children</span></li>
-            <li>Create a component that accepts <span className="font-medium text-white">props</span></li>
+            <li>Make at least two pages that link to each other</li>
+            <li>Use at least 3 reusable components</li>
+            <li>One of those components should accept <span className="font-medium text-white">children</span></li>
+            <li>One of those components should accept <span className="font-medium text-white">props</span></li>
             <li>
-              Fetch and display data from an API{" "}
+              Create a component that fetches and displays data from an API {" "}
               <a
                 href="https://jsonplaceholder.typicode.com/"
                 target="_blank"

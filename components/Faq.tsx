@@ -45,24 +45,28 @@ export default function FAQ() {
       </header>
 
       <div className="space-y-4">
-        <FaqItem question="Can I use AI?">
-          <p>You can use AI as an assistant but make sure that not more than 30% of your code was written by AI and you actually learnt something!</p>
+        <FaqItem question="Are there any prerequisites?">
+          <p>We expect you to know basics of web development like HTML, CSS, and a tiny bit of JavaScript as well. If you are completely new to web development, I reccomend you to checkout other YSWS like <a href="https://boba.hackclub.com/" target="blank" className="hover:underline">Boba</a>, <a href="https://waffles.hackclub.com/" target="blank" className="hover:underline">Waffles</a> and <a target="blank" className="hover:underline" href="https://swirl.hackclub.com/">Swirl</a></p>
         </FaqItem>
 
         <FaqItem question="Where do I use the $15 grant?">
           <p>You can use it to buy a domain from websites like Porkbun and Name.com. If you want to buy it from somewhere else, let us know!</p>
         </FaqItem>
 
-        <FaqItem question="How can I fetch data from an API?">
+        <FaqItem question="Do I need to use hackatime to track my time?">
+          <p>Yes, you need to track your time with hackatime so that we can ensure there is no fraud involved. You need to log about 2-3 hours with hackatime</p>
+        </FaqItem>
+
+
+        <FaqItem question="How do I deploy my project?">
           <p>
-            Use <code className="bg-gray-800 px-1 py-0.5 rounded">fetch</code> or libraries like <code className="bg-gray-800 px-1 py-0.5 rounded">axios</code> inside a
-            <code className="bg-gray-800 px-1 py-0.5 rounded">useEffect</code> hook to pull data and store it in state.
+            We recommend you to use something like Vercel or Netlify that directly integrate with NextJS
           </p>
         </FaqItem>
 
-        <FaqItem question="How do I deploy this demo?">
+        <FaqItem question="More questions?">
           <p>
-            We recommend you to use something like Vercel or Netlify that directly integrate with NextJS
+            Feel free to reach out to @Arjav on slack
           </p>
         </FaqItem>
       </div>

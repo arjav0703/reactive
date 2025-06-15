@@ -22,7 +22,8 @@ export const metadata: Metadata = {
     type: "website",
     title: "Reactive",
     images: [{ url: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b57fa5895a5c035fe5f3de22e7099d2da0efb560_image.png" }],
-    url: "https://reactive.hackclub.com"
+    url: "https://reactive.hackclub.com",
+    siteName: "Reactive - Hackclub YSWS"
   }
 };
 
