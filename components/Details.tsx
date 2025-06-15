@@ -43,7 +43,7 @@ function Requirements() {
             </li>
           </ul>
           <div className="flex justify-end gap-3">
-            <Button href="#">Guide</Button>
+            <Button href="https://www.figma.com/slides/Gqg9is3DM3BFmlUB6yTArH/Reactive-Guide?node-id=1-42&t=0ELDHDCDVg1XLXZX-1">Guide</Button>
             <Button href="https://github.com/arjav0703/reactive-demo">Demo</Button>
           </div>
         </div>
