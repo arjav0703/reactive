@@ -30,6 +30,7 @@ function Requirements() {
             <li>Use at least 3 reusable components</li>
             <li>One of those components should accept <span className="font-medium text-white">children</span></li>
             <li>One of those components should accept <span className="font-medium text-white">props</span></li>
+            <li>Have a nested component</li>
             <li>
               Create a component that fetches and displays data from an API {" "}
               <a
