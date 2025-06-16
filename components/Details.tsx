@@ -27,7 +27,8 @@ function Requirements() {
           <p className="text-2xl font-semibold">Requirements:</p>
           <ul className="space-y-3 list-inside list-disc text-gray-200">
             <li>Make at least two pages that link to each other</li>
-            <li>Use at least 3 reusable components</li>
+            <li>Make a nested route</li>
+            <li>Use at least 5 reusable components</li>
             <li>One of those components should accept <span className="font-medium text-white">children</span></li>
             <li>One of those components should accept <span className="font-medium text-white">props</span></li>
             <li>Have a nested component</li>

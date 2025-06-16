@@ -54,7 +54,7 @@ export default function FAQ() {
         </FaqItem>
 
         <FaqItem question="Do I need to use hackatime to track my time?">
-          <p>Yes, you need to track your time with hackatime so that we can ensure there is no fraud involved. You need to log about 2-3 hours with hackatime</p>
+          <p>Yes, you need to track your time with hackatime so that we can ensure there is no fraud involved. You MUST log about 3 hours with hackatime</p>
         </FaqItem>
 
 
