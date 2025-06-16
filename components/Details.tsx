@@ -26,7 +26,7 @@ function Requirements() {
         <div className="bg-[#112240] border border-[#61DBFB] rounded-lg shadow-lg p-8 space-y-6">
           <p className="text-2xl font-semibold">Requirements:</p>
           <ul className="space-y-3 list-inside list-disc text-gray-200">
-            <li>Make at least two pages that link to each other</li>
+            <li>Make at least three pages that link to each other</li>
             <li>Make a nested route</li>
             <li>Use at least 5 reusable components</li>
             <li>One of those components should accept <span className="font-medium text-white">children</span></li>
@@ -43,6 +43,7 @@ function Requirements() {
                 (e.g. JSONPlaceholder)
               </a>
             </li>
+            <li>Log 3 hours using <a className="text-[#61DBFB] hover:text-[#7FDBFF] hover:underline" href="https://hackatime.hackclub.com">hackatime</a></li>
           </ul>
           <div className="flex justify-end gap-3">
             <Button href="https://www.figma.com/slides/Gqg9is3DM3BFmlUB6yTArH/Reactive-Guide?node-id=1-42&t=0ELDHDCDVg1XLXZX-1">Guide</Button>
