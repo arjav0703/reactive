@@ -64,6 +64,12 @@ export default function FAQ() {
           </p>
         </FaqItem>
 
+        <FaqItem question="When does this end?">
+          <p>
+            Reactive ends on 2nd July. (this might be extended later)
+          </p>
+        </FaqItem>
+
         <FaqItem question="More questions?">
           <p>
             Feel free to reach out to @Arjav on slack or drop a message in <a className="text-[#61DBFB] hover:underline">#reactive</a>
