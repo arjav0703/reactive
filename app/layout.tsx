@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Reactive",
-  description: "A react YSWS",
+  description: "Reactive is a YSWS program by hackclub, free for teenagers around the world",
   authors: [{name: "Arjav", url: "https://arjav.dino.icu"}],
   icons: "/favicon.png",
   openGraph:{
