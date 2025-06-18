@@ -1,10 +1,12 @@
 import Button from "./Button";
 import FAQ from "./Faq";
+import Workshop from "./Workshop";
 
 export default function Details() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#0a192f] to-[#112240] text-white gap-30 px-6 py-12" id="Details">
       <Requirements/>
+      <Workshop/>
       <FAQ/>
     </div>
   );
@@ -13,7 +15,7 @@ export default function Details() {
 
 function Requirements() {
   return(
-    <section className="w-full max-w-3xl space-y-8">
+    <section className="w-full max-w-3xl space-y-8" id="requirements">
         <header className="text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#61DBFB] to-[#7FDBFF]">
             What to Make?

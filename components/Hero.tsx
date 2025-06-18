@@ -20,7 +20,6 @@ export default function Hero() {
       </p>
       <div className="flex flex-row gap-6">
         <Button href="#Details">Know more</Button>
-        <Button href="https://github.com/arjav0703/reactive-template">See Template</Button>
         <Button href="https://www.figma.com/slides/Gqg9is3DM3BFmlUB6yTArH/Reactive-Guide?node-id=1-42&t=0ELDHDCDVg1XLXZX-1">Get Started</Button>
       </div>
     </section>
