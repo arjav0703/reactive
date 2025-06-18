@@ -72,7 +72,7 @@ export default function FAQ() {
 
         <FaqItem question="More questions?">
           <p>
-            Feel free to reach out to @Arjav on Slack or drop a message in <a className="text-[#61DBFB] hover:underline">#reactive</a>.
+            Feel free to reach out to @Arjav on Slack or drop a message in <a href="https://hackclub.slack.com/archives/C090S7Q2HT4" className="text-[#61DBFB] hover:underline">#reactive</a>.
           </p>
         </FaqItem>
       </div>
