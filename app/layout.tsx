@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Reactive",
-  description: "Reactive is a YSWS program by hackclub, free for teenagers around the world",
+  description: "Reactive is a YSWS program by Hack Club, free for teenagers around the world",
   authors: [{name: "Arjav", url: "https://arjav.dino.icu"}],
   icons: "/favicon.png",
   openGraph:{
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Reactive",
     images: [{ url: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b57fa5895a5c035fe5f3de22e7099d2da0efb560_image.png" }],
     url: "https://reactive.hackclub.com",
-    siteName: "Reactive - Hackclub YSWS"
+    siteName: "Reactive - Hack Club YSWS"
   }
 };
 
