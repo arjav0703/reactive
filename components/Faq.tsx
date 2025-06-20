@@ -46,33 +46,33 @@ export default function FAQ() {
 
       <div className="space-y-4">
         <FaqItem question="Are there any prerequisites?">
-          <p>We expect you to know basics of web development like HTML, CSS, and a tiny bit of JavaScript as well. If you are completely new to web development, I reccomend you to checkout other YSWS like <a href="https://boba.hackclub.com/" target="blank" className="hover:underline">Boba</a>, <a href="https://waffles.hackclub.com/" target="blank" className="hover:underline">Waffles</a> and <a target="blank" className="hover:underline" href="https://swirl.hackclub.com/">Swirl</a></p>
+          <p>We expect you to know basics of web development like HTML, CSS, and a tiny bit of JavaScript as well. If you are completely new to web development, I recommend that you check out other YSWSs like <a href="https://boba.hackclub.com/" target="blank" className="hover:underline">Boba</a>, <a href="https://waffles.hackclub.com/" target="blank" className="hover:underline">Waffles</a> and <a target="blank" className="hover:underline" href="https://swirl.hackclub.com/">Swirl</a>.</p>
         </FaqItem>
 
         <FaqItem question="Where do I use the $15 grant?">
           <p>You can use it to buy a domain from websites like Porkbun and Name.com. If you want to buy it from somewhere else, let us know!</p>
         </FaqItem>
 
-        <FaqItem question="Do I need to use hackatime to track my time?">
-          <p>Yes, you need to track your time with hackatime so that we can ensure there is no fraud involved. You MUST log about 3 hours with hackatime</p>
+        <FaqItem question="Do I need to use Hackatime to track my time?">
+          <p>Yes, you need to track your time with Hackatime so that we can ensure there is no fraud involved. You MUST log about 3 hours with Hackatime.</p>
         </FaqItem>
 
 
         <FaqItem question="How do I deploy my project?">
           <p>
-            We recommend you to use something like Vercel or Netlify that directly integrate with NextJS
+            We recommend that you use something like Vercel or Netlify that directly integrate with NextJS.
           </p>
         </FaqItem>
 
         <FaqItem question="When does this end?">
           <p>
-            Reactive ends on 2nd July. (this might be extended later)
+            Reactive ends on 2nd July (this might be extended later).
           </p>
         </FaqItem>
 
         <FaqItem question="More questions?">
           <p>
-            Feel free to reach out to @Arjav on slack or drop a message in <a className="text-[#61DBFB] hover:underline">#reactive</a>
+            Feel free to reach out to @Arjav on Slack or drop a message in <a href="https://hackclub.slack.com/archives/C090S7Q2HT4" className="text-[#61DBFB] hover:underline">#reactive</a>.
           </p>
         </FaqItem>
       </div>
