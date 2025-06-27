@@ -46,6 +46,7 @@ function Requirements() {
               </a>
             </li>
             <li>Log 3 hours using <a className="text-[#61DBFB] hover:text-[#7FDBFF] hover:underline" href="https://hackatime.hackclub.com">hackatime</a></li>
+            <li>Note: Your submission needs to be meaningful (eg. a portfolio, or a website showcasing your favourite artists) and also use relevant APIs (eg. using a blog post api for a blog page instead of using a lorem ipsum API).</li>
           </ul>
           <div className="flex justify-end gap-3">
             <Button href="https://www.figma.com/slides/Gqg9is3DM3BFmlUB6yTArH/Reactive-Guide?node-id=1-42&t=0ELDHDCDVg1XLXZX-1">Guide</Button>
