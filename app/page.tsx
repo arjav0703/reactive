@@ -12,11 +12,11 @@ export default function Home() {
         }}
       >
         <Hero />
-        <p className="absolute bottom-6 text-xl text-[#61DBFB] text-center">Reactive is a program by <a href="https://hackclub.com" className="hover:underline">Hack Club</a>. Ends July 4.</p>
+        <p className="absolute bottom-6 text-xl text-[#61DBFB] text-center">Reactive is a program by <a href="https://hackclub.com" className="hover:underline">Hack Club</a>. Ends July 4. (v2 coming soon!)</p>
       </main>
 
-      <Details/>
-      <Footer/>
+      <Details />
+      <Footer />
     </>
   );
 }
