@@ -15,7 +15,7 @@ export default function Workshop() {
                 <div className="bg-[#112240] border-dotted border-[#61DBFB] border-5 rounded-lg shadow-lg p-8 space-y-3">
                   <p className="text-lg">You will need to make an individual submission in order to show that you are capable of running a workshop. Once your submission is approved, submit the workshop form. Feel free to contact @Arjav or @Jps on slack if you have any questions regarding your workshop.</p>
                   <div className="flex justify-end gap-3">
-                    <Button href="https://forms.hackclub.com/t/pjgV9xJvvvus">Workshop Form</Button>
+                    <Button href="https://forms.hackclub.com/reactive-workshop">Workshop Form</Button>
                   </div>
                 </div>
               </section>
