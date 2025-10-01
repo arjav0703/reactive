@@ -66,7 +66,19 @@ export default function FAQ() {
 
         <FaqItem question="When does this end?">
           <p>
-            Reactive ends on 2nd July (this might be extended later).
+            Individual submissions for Reactive end on 16th October (workshops run throughout the year!).
+          </p>
+        </FaqItem>
+
+        <FaqItem question="Can I use AI tools to help me build my project?">
+          <p>
+            No! We want to see your own work. You can use AI tools to help you learn and understand concepts, but the final submission must be your own work. If we find out that you have used AI tools to generate code or content for your project, we will have to disqualify you from the program.
+          </p>
+        </FaqItem>
+
+        <FaqItem question="Can I submit again?">
+          <p>
+            No. If you've already submitted your project, you cannot submit again. However, you can always improve your project and share it with us on Slack!
           </p>
         </FaqItem>
 
