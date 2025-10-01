@@ -50,7 +50,7 @@ function Requirements() {
           </ul>
           <div className="flex justify-end gap-3">
             <Button href="https://www.figma.com/slides/Gqg9is3DM3BFmlUB6yTArH/Reactive-Guide?node-id=1-42&t=0ELDHDCDVg1XLXZX-1">Guide</Button>
-            <Button href="https://forms.hackclub.com/t/fRtCcb5PZUus">Submit</Button>
+            <Button href="https://forms.hackclub.com/reactive-submissions">Submit</Button>
           </div>
         </div>
       </section>
